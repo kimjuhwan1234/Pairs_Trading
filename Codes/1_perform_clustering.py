@@ -44,7 +44,7 @@ if K_mean_Save:
             Result.to_csv(os.path.join(output_dir, sub_dir), index=False)
 
 # hyper parameter eps percentile np.range(0.1, 1, 0.1) should be tested manually.(paper follow)
-dbscan_Save = True
+dbscan_Save = False
 if dbscan_Save:
     test_Set = [round(i, 1) for i in np.arange(0.1, 1, 0.1)]
     files = sorted(filename for filename in os.listdir(input_dir))
@@ -82,7 +82,7 @@ if dbscan_Save:
             Result.to_csv(os.path.join(output_dir, sub_dir), index=False)
 
 # hyper parameter distance percentile np.range(0.1, 1, 0.1) should be tested manually.(paper follow)
-agglomerative_Save = False
+agglomerative_Save = True
 if agglomerative_Save:
     test_Set = [round(i, 1) for i in np.arange(0.1, 1, 0.1)]
     files = sorted(filename for filename in os.listdir(input_dir))

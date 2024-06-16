@@ -39,7 +39,7 @@ class Invest_Table:
         clusters = clusters.reset_index()
         clusters['spread'] = spread_vec
         # clusters['spread'][clusters['Cluster Index'] != 0].std()
-        clusters['in_portfolio'] = (clusters['spread'].abs() > clusters['spread'][clusters['Cluster Index'] != 0].std())
+        clusters['in_portfolio'] = (clusters['spread'].abs() > clusters['spread'].std())
         clusters['Long Short'] = clusters['in_portfolio'] * (-clusters['spread'] / clusters['spread'].abs())
         clusters['Long Short'] = clusters['Long Short'].fillna(0)
 

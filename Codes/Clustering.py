@@ -127,13 +127,13 @@ class Clustering:
         self.PCA_Data = self.PCA_Data.values[:, 1:].astype(float)
 
         # 이웃한 두 개 점 사이 거리 alpha percentile
-        nbrs = NearestNeighbors(n_neighbors=2, p=2).fit(self.PCA_Data)
+        nbrs = NearestNeighbors(n_neighbors=2, p=1).fit(self.PCA_Data)
         distances, indices = nbrs.kneighbors(self.PCA_Data)
         avg_distances = distances[:, 1:]
         outlier_distance = np.percentile(avg_distances, threshold * 100)
 
         # Clustering
-        agglo = AgglomerativeClustering(n_clusters=None, metric='euclidean', linkage='ward',
+        agglo = AgglomerativeClustering(n_clusters=None, metric='manhattan', linkage='average',
                                         distance_threshold=outlier_distance).fit(self.PCA_Data)
         cluster_labels = agglo.labels_
         self.Agglomerative_labels = cluster_labels
