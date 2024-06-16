@@ -6,8 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="f3884da4-4003-4ca4-a09f-dbcab1695ef3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/2_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/2_invest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/PCA_and_ETC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/PCA_and_ETC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/4_analyze_portfolio.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/4_analyze_portfolio.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/Invest_Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/Invest_Table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Momentum1_Winsorized.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Momentum1_Winsorized.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_result_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_statistcs_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Best_result_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_result_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_statistcs_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_result_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_statistcs_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_result_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_statistcs_modified.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,14 +39,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asas4/Documents/GitHub/Pairs_Trading&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.2_invest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/asas4/Documents/GitHub/Pairs_Trading/Files/Total_Result/image"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="2_invest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pairs_Trading" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Codes/2_invest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2_invest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,4 +85,15 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/asas4/Documents/GitHub/Pairs_Trading/Codes/3_check_Performance.ipynb</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
