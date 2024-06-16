@@ -5,42 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3884da4-4003-4ca4-a09f-dbcab1695ef3" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/2_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/2_invest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/10_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/10_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/20_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/20_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/30_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/30_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/40_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/40_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/50_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/50_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/60_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/60_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/70_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/70_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.6.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.7.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.8.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.9.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/50.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_statistcs_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_result_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Reversal_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Reversal_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Reversal_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Reversal_statistcs_modified.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,11 +107,6 @@
           <url>notebook://C:/Users/asas4/Documents/GitHub/Pairs_Trading/Codes/3_check_Performance.ipynb</url>
           <line>50</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Codes/Invest_Table.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Codes/2_invest.py</url>
