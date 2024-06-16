@@ -198,7 +198,7 @@ def plot_result(result_df, clustering_name, new_Plot: bool, apply_log: bool):
 
 def save_and_plot_result(result_df: pd.DataFrame, output_dir, clustering_name, file_names, best: bool):
     if best:
-        file = '../Database/sp500_return.csv'
+        file = '../Database/ETC/sp500_return.csv'
         df = pd.read_csv(file)
         df = df.iloc[0:, :]
         df = df.T
