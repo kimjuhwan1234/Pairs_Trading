@@ -104,7 +104,7 @@ if dbscan_Save:
         top_df.to_csv(os.path.join('../Files/Individual_Result/DBSCAN', f'{subdir}.csv'), index=False)
 
 # hyper parameter distance percentile np.range(0.1, 1, 0.1) should be tested manually.(paper follow) Done!
-agglomerative_Save = True
+agglomerative_Save = False
 if agglomerative_Save:
     input_dir = '../Database/Clustering_Result/Agglomerative'
     subdirectories = [d for d in os.listdir(input_dir)]
@@ -153,7 +153,7 @@ if agglomerative_Save:
             top_df = pd.concat([top_df, new_row], ignore_index=True)
         top_df.to_csv(os.path.join('../Files/Individual_Result/Agglomerative', f'{subdir}.csv'), index=False)
 
-contrastive = False
+contrastive = True
 if contrastive:
     input_dir = f'../Database/Clustering_Result/Contrastive_Learning2/CL_Pre'
     subdirectories = [d for d in os.listdir(input_dir)]
