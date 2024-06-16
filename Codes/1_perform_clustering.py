@@ -6,7 +6,7 @@ input_dir = '../Database/characteristics_US'
 output_dir = '../Database/Clustering_Result'
 
 # hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
-K_mean_Save = False
+K_mean_Save = True
 if K_mean_Save:
     test_Set = [i for i in [10, 20, 30, 50, 100]]
     files = sorted(filename for filename in os.listdir(input_dir))
@@ -82,7 +82,7 @@ if dbscan_Save:
             Result.to_csv(os.path.join(output_dir, sub_dir), index=False)
 
 # hyper parameter distance percentile np.range(0.1, 1, 0.1) should be tested manually.(paper follow)
-agglomerative_Save = True
+agglomerative_Save = False
 if agglomerative_Save:
     test_Set = [round(i, 1) for i in np.arange(0.1, 1, 0.1)]
     files = sorted(filename for filename in os.listdir(input_dir))

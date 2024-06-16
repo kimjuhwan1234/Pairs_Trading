@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f3884da4-4003-4ca4-a09f-dbcab1695ef3" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Momentum1_Winsorized.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Momentum1_Winsorized.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Best_result_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
