@@ -67,7 +67,7 @@ class Clustering:
 
         sorted_nearest_neighbor_distances = sorted(nearest_neighbor_distances)
         epsilon = np.percentile(sorted_nearest_neighbor_distances, alpha * 100)
-        outliers = [i for i, dist in enumerate(distance_to_own_centroid) if dist < epsilon]
+        outliers = [i for i, dist in enumerate(distance_to_own_centroid) if dist > epsilon]
 
         clusters_indices = [[] for _ in range(k_value)]
         for i, label in enumerate(cluster_labels):
@@ -97,15 +97,15 @@ class Clustering:
 
         # 각 데이터 포인트의 MinPts 개수의 최근접 이웃들의 거리의 평균 계산
         # 1번째는 자기자신이니까 ms+1
-        ms=int(np.log(len(self.PCA_Data)))
+        ms = int(np.log(len(self.PCA_Data)))
         # ms=6
-        nbrs = NearestNeighbors(n_neighbors=ms + 1, p=2).fit(self.PCA_Data)
+        nbrs = NearestNeighbors(n_neighbors=ms + 1, p=1).fit(self.PCA_Data)
         distances, indices = nbrs.kneighbors(self.PCA_Data)
         avg_distances = np.mean(distances[:, 1:], axis=1)
         eps = np.percentile(avg_distances, threshold * 100)
 
         # Clustering
-        dbscan = DBSCAN(min_samples=ms, eps=eps, metric='euclidean').fit(self.PCA_Data)
+        dbscan = DBSCAN(min_samples=ms, eps=eps, metric='manhattan').fit(self.PCA_Data)
         cluster_labels = dbscan.labels_
         self.DBSCAN_labels = cluster_labels
 
