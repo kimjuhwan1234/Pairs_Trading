@@ -88,5 +88,5 @@ class Invest_Table:
 
     def count_stock_of_traded(self):
         count_non_zero = (self.table['Long Short'] != 0).sum()
-        proportion = count_non_zero / len(self.table)
+        proportion = count_non_zero
         return proportion

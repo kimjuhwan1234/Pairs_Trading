@@ -4,7 +4,7 @@ import Invest_Table as I
 import Cointegration as CI
 
 # hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
-K_mean_Save = False
+K_mean_Save = True
 if K_mean_Save:
     input_dir = '../Database/Clustering_Result/K_mean'
     subdirectories = [d for d in os.listdir(input_dir)]
@@ -153,16 +153,16 @@ if agglomerative_Save:
             top_df = pd.concat([top_df, new_row], ignore_index=True)
         top_df.to_csv(os.path.join('../Files/Individual_Result/Agglomerative', f'{subdir}.csv'), index=False)
 
-contrastive = True
+contrastive = False
 if contrastive:
-    input_dir = f'../Database/Clustering_Result/Contrastive_Learning2/CL_Pre'
+    input_dir = f'../Database/Clustering_Result/Contrastive_Learning/CL_Pre'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:
         top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
                                        'rest', 'total', 'number of clusters'])
         base_directory = f'{input_dir}/{subdir}'
-        output_dir = f'../Database/LS_Result/Contrastive_Learning2/{subdir}'
+        output_dir = f'../Database/LS_Result/Contrastive_Learning/{subdir}'
         files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
 
         for file in files:
@@ -200,7 +200,7 @@ if contrastive:
                                     'number of clusters': len(sublist_lengths[1:])})
 
             top_df = pd.concat([top_df, new_row], ignore_index=True)
-        top_df.to_csv(os.path.join(f'../Files/Individual_Result/Contrastive_Learning2', f'{subdir}.csv'), index=False)
+        top_df.to_csv(os.path.join(f'../Files/Individual_Result/Contrastive_Learning', f'{subdir}.csv'), index=False)
 
 Reversal_Save = False
 if Reversal_Save:
