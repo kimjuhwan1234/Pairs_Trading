@@ -155,14 +155,14 @@ if agglomerative_Save:
 
 contrastive = True
 if contrastive:
-    input_dir = f'../Database/Clustering_Result/Contrastive_Learning/CL_Pre_0.1'
+    input_dir = f'../Database/Clustering_Result/Contrastive_Learning2/CL_Pre_0.1'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:
         top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
                                        'rest', 'total', 'number of clusters'])
         base_directory = f'{input_dir}/{subdir}'
-        output_dir = f'../Database/LS_Result/Contrastive_Learning/{subdir}'
+        output_dir = f'../Database/LS_Result/Contrastive_Learning2/{subdir}'
         files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
 
         for file in files:
@@ -200,7 +200,7 @@ if contrastive:
                                     'number of clusters': len(sublist_lengths[1:])})
 
             top_df = pd.concat([top_df, new_row], ignore_index=True)
-        top_df.to_csv(os.path.join(f'../Files/Individual_Result/Contrastive_Learning', f'{subdir}.csv'), index=False)
+        top_df.to_csv(os.path.join(f'../Files/Individual_Result/Contrastive_Learning2', f'{subdir}.csv'), index=False)
 
 Reversal_Save = False
 if Reversal_Save:
