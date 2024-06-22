@@ -4,7 +4,7 @@ import Invest_Table as I
 import Cointegration as CI
 
 # hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
-K_mean_Save = True
+K_mean_Save = False
 if K_mean_Save:
     input_dir = '../Database/Clustering_Result/K_mean'
     subdirectories = [d for d in os.listdir(input_dir)]
@@ -54,7 +54,7 @@ if K_mean_Save:
         top_df.to_csv(os.path.join('../Files/Individual_Result/K_mean', f'{subdir}.csv'), index=False)
 
 # hyper parameter eps percentile np.range(0.1, 1, 0.1) should be tested manually.(paper follow) Done!
-dbscan_Save = False
+dbscan_Save = True
 if dbscan_Save:
     input_dir = '../Database/Clustering_Result/DBSCAN'
     subdirectories = [d for d in os.listdir(input_dir)]

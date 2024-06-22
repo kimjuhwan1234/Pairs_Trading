@@ -81,7 +81,7 @@ def merge_LS_Table(position, data, LS_merged_df, file):
 
 
 def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
-                     result_df: pd.DataFrame, save=False):
+                     result_df: pd.DataFrame, save: str):
     # Sort LS_Value according to Firm Name
     LS_merged_df.sort_values('Firm Name', inplace=True)
 
@@ -96,30 +96,56 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
     LS_merged_df = LS_merged_df.fillna(0)
     LS_merged_df.columns = MOM_merged_df.columns
 
-    prod = MOM_merged_df * LS_merged_df
-    prod = pd.DataFrame(prod)
-    prod = prod.applymap(lambda x: -0.30 if x < -0.30 else x)
+    if save == 'LS':
+        prod = MOM_merged_df * LS_merged_df
+        prod = pd.DataFrame(prod)
+        prod = prod.applymap(lambda x: -0.30 if x < -0.30 else x)
 
-    mask = ((LS_merged_df == 1) | (LS_merged_df == -1)) & MOM_merged_df.isna()
-    prod[mask] = -0.5
+        mask = ((LS_merged_df == 1) | (LS_merged_df == -1)) & MOM_merged_df.isna()
+        prod[mask] = -0.5
 
-    prod = prod.applymap(lambda x: np.log(x + 1))
+        prod = prod.applymap(lambda x: np.log(x + 1))
 
-    non_zero_count = LS_merged_df.astype(bool).sum()
-    column_sums = prod.sum()
-    column_means = column_sums.values / non_zero_count.values
-    column_means = pd.DataFrame(column_means, index=column_sums.index)
-    column_means.fillna(0, inplace=True)
-    result_df = pd.concat([result_df, column_means.T], ignore_index=True)
+        non_zero_count = LS_merged_df.astype(bool).sum()
+        column_sums = prod.sum()
+        column_means = column_sums.values / non_zero_count.values
+        column_means = pd.DataFrame(column_means, index=column_sums.index)
+        column_means.fillna(0, inplace=True)
+        result_df = pd.concat([result_df, column_means.T], ignore_index=True)
 
-    if save:
-        non_zero_count = pd.DataFrame(non_zero_count)
-        non_zero_count.to_csv('../Files/count.csv')
-        LS_merged_df.to_csv('../Files/LS_merged_df.csv')
-        MOM_merged_df.to_csv('../Files/Mom_merged_df.csv')
-        prod.to_csv('../Files/prod.csv')
-        # result_df = np.log(result_df + 1)
-        result_df.to_csv('../Files/result_df.csv')
+    if save == 'L':
+        prod = MOM_merged_df * LS_merged_df[LS_merged_df == 1]
+        prod = pd.DataFrame(prod)
+        prod = prod.applymap(lambda x: -0.30 if x < -0.30 else x)
+
+        mask = ((LS_merged_df == 1)) & MOM_merged_df.isna()
+        prod[mask] = -0.5
+
+        prod = prod.applymap(lambda x: np.log(x + 1))
+
+        non_zero_count = LS_merged_df.astype(bool).sum()
+        column_sums = prod.sum()
+        column_means = column_sums.values / non_zero_count.values
+        column_means = pd.DataFrame(column_means, index=column_sums.index)
+        column_means.fillna(0, inplace=True)
+        result_df = pd.concat([result_df, column_means.T], ignore_index=True)
+
+    if save == 'S':
+        prod = MOM_merged_df * LS_merged_df[LS_merged_df == -1]
+        prod = pd.DataFrame(prod)
+        prod = prod.applymap(lambda x: -0.30 if x < -0.30 else x)
+
+        mask = ((LS_merged_df == -1)) & MOM_merged_df.isna()
+        prod[mask] = -0.5
+
+        prod = prod.applymap(lambda x: np.log(x + 1))
+
+        non_zero_count = LS_merged_df.astype(bool).sum()
+        column_sums = prod.sum()
+        column_means = column_sums.values / non_zero_count.values
+        column_means = pd.DataFrame(column_means, index=column_sums.index)
+        column_means.fillna(0, inplace=True)
+        result_df = pd.concat([result_df, column_means.T], ignore_index=True)
 
     return result_df
 

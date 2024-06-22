@@ -51,9 +51,9 @@ class metrics:
             t_statistic, p_value = stats.ttest_ind_from_stats(self.result_modified.iloc[1, i],
                                                               self.result_modified.iloc[2, i],
                                                               self.result_modified.iloc[0, i],
-                                                              self.result_modified.iloc[1, -1],
-                                                              self.result_modified.iloc[2, -1],
-                                                              self.result_modified.iloc[0, -1])
+                                                              self.result_modified.iloc[1, -2],
+                                                              self.result_modified.iloc[2, -2],
+                                                              self.result_modified.iloc[0, -2])
             t_test.iloc[0, i] = t_statistic
 
         self.result_modified = pd.concat([self.result_modified, t_test], axis=0)
