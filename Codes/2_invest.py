@@ -155,7 +155,7 @@ if agglomerative_Save:
 
 contrastive = True
 if contrastive:
-    input_dir = f'../Database/Clustering_Result/Contrastive_Learning2/CL_Pre_0.1'
+    input_dir = f'../Database/Clustering_Result/Contrastive_Learning2/CL_Pre_0.9'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:
