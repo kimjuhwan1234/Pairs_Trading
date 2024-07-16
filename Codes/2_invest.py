@@ -4,7 +4,7 @@ import Invest_Table as I
 import Cointegration as CI
 
 # hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
-K_mean_Save = False
+K_mean_Save = True
 if K_mean_Save:
     input_dir = '../Database/Clustering_Result/K_mean'
     subdirectories = [d for d in os.listdir(input_dir)]
@@ -153,7 +153,7 @@ if agglomerative_Save:
             top_df = pd.concat([top_df, new_row], ignore_index=True)
         top_df.to_csv(os.path.join('../Files/Individual_Result/Agglomerative', f'{subdir}.csv'), index=False)
 
-contrastive = True
+contrastive = False
 if contrastive:
     input_dir = f'../Database/Clustering_Result/Contrastive_Learning2/CL_Pre_0.8'
     subdirectories = [d for d in os.listdir(input_dir)]

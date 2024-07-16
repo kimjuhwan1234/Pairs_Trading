@@ -188,12 +188,19 @@ class metrics:
         for i in range(len(self.result_modified.columns)):
             for j in range(len(self.period)):
                 row = self.result_df.iloc[i, self.period[j]]
-                row2 = np.exp(row.astype(float)) - 1
-                cumulative_returns = np.cumprod(1 + row2) - 1
-                peak = np.maximum.accumulate(cumulative_returns)
-                drawdown = ((cumulative_returns - peak) / (peak))
-                max_drawdown = drawdown.min()
-                calmar = (np.mean(np.exp(row) - 1) * 12) / abs(max_drawdown)
+                cumulative_returns = np.exp(np.cumsum(row))
+                max_drawdown = 0
+                peak = 1  # 초기 최대 누적 수익은 1 (시작값)
+
+                # 각 시점에서 최대 손실 계산
+                for k in range(len(cumulative_returns)):
+                    if cumulative_returns[k] > peak:
+                        peak = cumulative_returns[k]
+                    else:
+                        drawdown = (peak - cumulative_returns[k]) / peak
+                        max_drawdown = max(max_drawdown, drawdown)
+
+                calmar = (np.exp(np.mean(row)*12) - 1) / abs(max_drawdown)
                 Calmar_ratio.iloc[j, i] = calmar
 
         if self.total:

@@ -5,10 +5,10 @@ import Clustering as C
 input_dir = '../Database/characteristics_US'
 output_dir = '../Database/Clustering_Result'
 
-# hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
+# hyper parameter K(3, 5,10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
 K_mean_Save = True
 if K_mean_Save:
-    test_Set = [i for i in [10, 20, 30, 50, 100]]
+    test_Set = [i for i in [40]]
     files = sorted(filename for filename in os.listdir(input_dir))
 
     for i in test_Set:
