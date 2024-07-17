@@ -7,26 +7,12 @@
     <list default="true" id="f3884da4-4003-4ca4-a09f-dbcab1695ef3" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/4_analyze_portfolio.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/4_analyze_portfolio.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Invest_Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/Invest_Table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/40.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/40.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Individual_Result/K_mean/50.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_result_modified.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/PCA_and_ETC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/PCA_and_ETC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/Scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/Scratch.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Best_result_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_statistcs_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_result_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/period_analysis.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +116,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook://C:/Users/asas4/Documents/GitHub/Pairs_Trading/Codes/3_check_Performance.ipynb</url>
           <line>54</line>
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

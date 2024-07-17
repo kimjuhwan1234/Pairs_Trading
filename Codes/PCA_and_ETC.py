@@ -131,7 +131,7 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
         result_df = pd.concat([result_df, column_means.T], ignore_index=True)
 
     if save == 'S':
-        prod = MOM_merged_df * LS_merged_df[LS_merged_df == -1]
+        prod = MOM_merged_df * (LS_merged_df[LS_merged_df == -1])
         prod = pd.DataFrame(prod)
         prod = prod.applymap(lambda x: -0.30 if x < -0.30 else x)
 
