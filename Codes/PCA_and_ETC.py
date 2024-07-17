@@ -123,7 +123,7 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
 
         prod = prod.applymap(lambda x: np.log(x + 1))
 
-        non_zero_count = LS_merged_df.astype(bool).sum()
+        non_zero_count = LS_merged_df.astype(bool).sum()/2
         column_sums = prod.sum()
         column_means = column_sums.values / non_zero_count.values
         column_means = pd.DataFrame(column_means, index=column_sums.index)
@@ -140,7 +140,7 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
 
         prod = prod.applymap(lambda x: np.log(x + 1))
 
-        non_zero_count = LS_merged_df.astype(bool).sum()
+        non_zero_count = LS_merged_df.astype(bool).sum()/2
         column_sums = prod.sum()
         column_means = column_sums.values / non_zero_count.values
         column_means = pd.DataFrame(column_means, index=column_sums.index)
