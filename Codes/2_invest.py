@@ -4,7 +4,7 @@ import Invest_Table as I
 import Cointegration as CI
 
 # hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
-K_mean_Save = True
+K_mean_Save = False
 if K_mean_Save:
     input_dir = '../Database/Clustering_Result/K_mean'
     subdirectories = [d for d in os.listdir(input_dir)]
@@ -238,3 +238,27 @@ if cointegration:
         Coin.read_mom_data()
         Coin.find_cointegrated_pairs()
         Coin.save_cointegrated_LS()
+
+Best = True
+if Best:
+    input_dir = f'../Database/Clustering_Result/Best'
+    subdirectories = [d for d in os.listdir(input_dir)]
+
+    for subdir in subdirectories:
+        top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
+                                       'rest', 'total', 'number of clusters'])
+        base_directory = f'{input_dir}/{subdir}'
+        output_dir = f'../Database/LS_Result/Best2/{subdir}'
+        files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
+
+        for file in files:
+            print(file)
+            data = read_and_preprocess_data(base_directory, file)
+
+            clusters = []
+            for j in range(1 + max(set(data['clusters']))):
+                indices = list(data[data['clusters'] == j].index)
+                clusters.append(indices)
+
+            Do_Result_Save = I.Invest_Table(data)
+            Do_Result_Save.ls_table(clusters, output_dir, file, save=True, raw=True)

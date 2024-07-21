@@ -212,7 +212,7 @@ class metrics:
     def cal_monthly_statistics(self):
         month = pd.DataFrame(
             index=['Mean', 'Standard deviation', 'Standard error', 't-statistic', 'Min', '25%', '50%', '75%', 'Max',
-                   'Skew', 'Kurtosis'], columns=self.result_modified.columns)
+                   'Skew', 'Kurtosis', 't-statistic2'], columns=self.result_modified.columns)
 
         for i in range(len(self.result_modified.columns)):
             month.iloc[0, i] = np.mean(self.result_df.iloc[i, :])
@@ -226,13 +226,14 @@ class metrics:
             month.iloc[9, i] = self.result_df.iloc[i, :].skew()
             month.iloc[10, i] = self.result_df.iloc[i, :].kurtosis()
 
-            X = sm.add_constant(self.result_df.iloc[i, :].shift(1).dropna())
-            y = self.result_df.iloc[i, :][1:].dropna()
-            y.index = X.index
+            # X = sm.add_constant(self.result_df.iloc[i, :].shift(1).dropna())
+            X = np.ones(391)
+            # y = self.result_df.iloc[i, :][1:].dropna().values
+            y = self.result_df.iloc[i, :].values
+            # y.index = X.index
 
             model = sm.OLS(y, X)
-            newey_west = model.fit(cov_type='HAC', cov_kwds={'maxlags': 1})
-            t_statistic, p_value = newey_west.tvalues
-            month.iloc[3, i] = t_statistic
+            newey_west = model.fit(cov_type='HAC', cov_kwds={'maxlags': 5})
+            month.iloc[3, i] = newey_west.tvalues
 
         self.result_modified = pd.concat([self.result_modified, month], axis=0)

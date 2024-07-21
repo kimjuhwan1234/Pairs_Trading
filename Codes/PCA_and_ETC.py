@@ -81,7 +81,7 @@ def merge_LS_Table(position, data, LS_merged_df, file):
 
 
 def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
-                     result_df: pd.DataFrame, save: str):
+                     result_df: pd.DataFrame, save: str, fee=None):
     # Sort LS_Value according to Firm Name
     LS_merged_df.sort_values('Firm Name', inplace=True)
 
@@ -108,7 +108,12 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
 
         non_zero_count = LS_merged_df.astype(bool).sum()
         column_sums = prod.sum()
-        column_means = column_sums.values / non_zero_count.values
+        if fee:
+            total_fee = non_zero_count.values * fee
+            log_total_fee = np.log(1 - total_fee)
+            column_means = (column_sums.values + log_total_fee) / non_zero_count.values
+        if not fee:
+            column_means = column_sums.values / non_zero_count.values
         column_means = pd.DataFrame(column_means, index=column_sums.index)
         column_means.fillna(0, inplace=True)
         result_df = pd.concat([result_df, column_means.T], ignore_index=True)
@@ -125,7 +130,12 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
 
         non_zero_count = LS_merged_df.astype(bool).sum()/2
         column_sums = prod.sum()
-        column_means = column_sums.values / non_zero_count.values
+        if fee:
+            total_fee = non_zero_count.values * fee
+            log_total_fee = np.log(1 - total_fee)
+            column_means = (column_sums.values + log_total_fee) / non_zero_count.values
+        if not fee:
+            column_means = column_sums.values / non_zero_count.values
         column_means = pd.DataFrame(column_means, index=column_sums.index)
         column_means.fillna(0, inplace=True)
         result_df = pd.concat([result_df, column_means.T], ignore_index=True)
@@ -142,7 +152,12 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
 
         non_zero_count = LS_merged_df.astype(bool).sum()/2
         column_sums = prod.sum()
-        column_means = column_sums.values / non_zero_count.values
+        if fee:
+            total_fee = non_zero_count.values * fee
+            log_total_fee = np.log(1 - total_fee)
+            column_means = (column_sums.values + log_total_fee) / non_zero_count.values
+        if not fee:
+            column_means = column_sums.values / non_zero_count.values
         column_means = pd.DataFrame(column_means, index=column_sums.index)
         column_means.fillna(0, inplace=True)
         result_df = pd.concat([result_df, column_means.T], ignore_index=True)

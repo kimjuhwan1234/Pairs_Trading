@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f3884da4-4003-4ca4-a09f-dbcab1695ef3" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/2_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/2_invest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codes/Metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/Metrics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Codes/PCA_and_ETC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/PCA_and_ETC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Codes/Scratch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_result_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_statistcs_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_result_modified.csv" afterDir="false" />
@@ -37,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asas4/Documents/GitHub/Rainfall&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asas4/Documents/GitHub/Pairs_Trading/Files&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -109,16 +112,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook://C:/Users/asas4/Documents/GitHub/Pairs_Trading/Codes/3_check_Performance.ipynb</url>
-          <line>54</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
