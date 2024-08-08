@@ -1,12 +1,11 @@
-from PCA_and_ETC import *
+from utils.PCA_and_ETC import *
 
-import Invest_Table as I
-import Cointegration as CI
+from Module import Cointegration as CI, Invest_Table as I
 
 # hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
 K_mean_Save = False
 if K_mean_Save:
-    input_dir = '../Database/Clustering_Result/K_mean'
+    input_dir = 'Database/Clustering_Result/K_mean'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:
@@ -51,12 +50,12 @@ if K_mean_Save:
                                     'number of clusters': len(sublist_lengths[1:])})
 
             top_df = pd.concat([top_df, new_row], ignore_index=True)
-        top_df.to_csv(os.path.join('../Files/Individual_Result/K_mean', f'{subdir}.csv'), index=False)
+        top_df.to_csv(os.path.join('File/Individual_Result/K_mean', f'{subdir}.csv'), index=False)
 
 # hyper parameter eps percentile np.range(0.1, 1, 0.1) should be tested manually.(paper follow) Done!
 dbscan_Save = False
 if dbscan_Save:
-    input_dir = '../Database/Clustering_Result/DBSCAN'
+    input_dir = 'Database/Clustering_Result/DBSCAN'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:
@@ -101,12 +100,12 @@ if dbscan_Save:
                                     'number of clusters': len(sublist_lengths[1:])})
 
             top_df = pd.concat([top_df, new_row], ignore_index=True)
-        top_df.to_csv(os.path.join('../Files/Individual_Result/DBSCAN', f'{subdir}.csv'), index=False)
+        top_df.to_csv(os.path.join('File/Individual_Result/DBSCAN', f'{subdir}.csv'), index=False)
 
 # hyper parameter distance percentile np.range(0.1, 1, 0.1) should be tested manually.(paper follow) Done!
 agglomerative_Save = False
 if agglomerative_Save:
-    input_dir = '../Database/Clustering_Result/Agglomerative'
+    input_dir = 'Database/Clustering_Result/Agglomerative'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:
@@ -151,11 +150,11 @@ if agglomerative_Save:
                                     'number of clusters': len(sublist_lengths[1:])})
 
             top_df = pd.concat([top_df, new_row], ignore_index=True)
-        top_df.to_csv(os.path.join('../Files/Individual_Result/Agglomerative', f'{subdir}.csv'), index=False)
+        top_df.to_csv(os.path.join('File/Individual_Result/Agglomerative', f'{subdir}.csv'), index=False)
 
 contrastive = False
 if contrastive:
-    input_dir = f'../Database/Clustering_Result/Contrastive_Learning2/CL_Pre_0.8'
+    input_dir = f'Database/Clustering_Result/Contrastive_Learning2/CL_pre_0.8'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:
@@ -200,12 +199,12 @@ if contrastive:
                                     'number of clusters': len(sublist_lengths[1:])})
 
             top_df = pd.concat([top_df, new_row], ignore_index=True)
-        top_df.to_csv(os.path.join(f'../Files/Individual_Result/Contrastive_Learning2', f'{subdir}.csv'), index=False)
+        top_df.to_csv(os.path.join(f'File/Individual_Result/Contrastive_Learning2', f'{subdir}.csv'), index=False)
 
 Reversal_Save = False
 if Reversal_Save:
-    input_dir = '../Database/characteristics_US'
-    output_dir = '../Database/LS_Result/Reversal'
+    input_dir = 'Database/characteristics_US'
+    output_dir = 'Database/LS_Result/Reversal'
     files = sorted(filename for filename in os.listdir(input_dir))
 
     for file in files:
@@ -220,7 +219,7 @@ if Reversal_Save:
 
 cointegration = False
 if cointegration:
-    input_dir = '../Database/characteristics_US'
+    input_dir = 'Database/characteristics_US'
     output_dir = '../Database/LS_Result/Total/Cointegration'
     files = sorted(filename for filename in os.listdir(input_dir))
 
@@ -241,7 +240,7 @@ if cointegration:
 
 Best = True
 if Best:
-    input_dir = f'../Database/Clustering_Result/Best'
+    input_dir = f'Database/Clustering_Result/Best'
     subdirectories = [d for d in os.listdir(input_dir)]
 
     for subdir in subdirectories:

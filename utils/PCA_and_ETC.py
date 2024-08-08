@@ -6,7 +6,7 @@ import os
 import warnings
 import numpy as np
 import pandas as pd
-import Metrics as M
+from Module import Metrics as M
 import matplotlib.pyplot as plt
 
 # turn off warning
@@ -24,7 +24,7 @@ def momentum_prefix_finder(df: pd.DataFrame):
 
 def read_and_preprocess_data(input_dir, file) -> pd.DataFrame:
     """
-    Only for reading YYYY-MM.csv Files. Recommend using smart_read() for more general cases.
+    Only for reading YYYY-MM.csv File. Recommend using smart_read() for more general cases.
     :param file: YYYY-MM.csv
     :return: DataFrame
     """

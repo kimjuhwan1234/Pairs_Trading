@@ -1,5 +1,5 @@
-from PCA_and_ETC import *
-from scipy.stats.mstats import winsorize
+from utils.PCA_and_ETC import *
+
 
 class Invest_Table:
 
@@ -34,7 +34,6 @@ class Invest_Table:
         spread_vec = (clusters.reset_index()['Momentum_1'] -
                       clusters.sort_values(by=['Cluster Index', 'Momentum_1', 'Firm Name'],
                                            ascending=[True, True, True]).reset_index()['Momentum_1'])
-
 
         clusters = clusters.reset_index()
         clusters['spread'] = spread_vec

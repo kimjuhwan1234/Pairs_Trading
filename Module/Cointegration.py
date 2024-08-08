@@ -1,4 +1,4 @@
-from PCA_and_ETC import *
+from utils.PCA_and_ETC import *
 from multiprocessing import Pool
 from itertools import combinations
 from sklearn.preprocessing import StandardScaler

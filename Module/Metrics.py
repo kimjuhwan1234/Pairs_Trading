@@ -1,6 +1,5 @@
-import numpy as np
 from scipy import stats
-from PCA_and_ETC import *
+from utils.PCA_and_ETC import *
 
 import statsmodels.api as sm
 
@@ -17,7 +16,7 @@ class metrics:
             self.result_modified.iloc[0, i] = len(self.result_df.columns)
             self.result_modified.iloc[1, i] = np.exp(np.mean(self.result_df.iloc[i, :]) * 12) - 1
             self.result_modified.iloc[2, i] = np.exp(np.std(self.result_df.iloc[i, :]) * np.sqrt(12)) - 1
-            cum = (np.exp(sum(self.result_df.iloc[i, :])) - 1)*100
+            cum = (np.exp(sum(self.result_df.iloc[i, :])) - 1) * 100
             self.result_modified.iloc[3, i] = cum
 
     def cal_annual_return(self, col):
@@ -200,7 +199,7 @@ class metrics:
                         drawdown = (peak - cumulative_returns[k]) / peak
                         max_drawdown = max(max_drawdown, drawdown)
 
-                calmar = (np.exp(np.mean(row)*12) - 1) / abs(max_drawdown)
+                calmar = (np.exp(np.mean(row) * 12) - 1) / abs(max_drawdown)
                 Calmar_ratio.iloc[j, i] = calmar
 
         if self.total:
