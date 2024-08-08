@@ -12,7 +12,7 @@ if K_mean_Save:
         top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
                                        'rest', 'total', 'number of clusters'])
         base_directory = f'{input_dir}/{subdir}'
-        output_dir = f'../Database/LS_Result/K_mean/{subdir}'
+        output_dir = f'Database/LS_Result/K_mean/{subdir}'
         files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
 
         for file in files:
@@ -62,7 +62,7 @@ if dbscan_Save:
         top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
                                        'rest', 'total', 'number of clusters'])
         base_directory = f'{input_dir}/{subdir}'
-        output_dir = f'../Database/LS_Result/DBSCAN/{subdir}'
+        output_dir = f'Database/LS_Result/DBSCAN/{subdir}'
         files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
 
         for file in files:
@@ -112,7 +112,7 @@ if agglomerative_Save:
         top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
                                        'rest', 'total', 'number of clusters'])
         base_directory = f'{input_dir}/{subdir}'
-        output_dir = f'../Database/LS_Result/Agglomerative/{subdir}'
+        output_dir = f'Database/LS_Result/Agglomerative/{subdir}'
         files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
 
         for file in files:
@@ -161,7 +161,7 @@ if contrastive:
         top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
                                        'rest', 'total', 'number of clusters'])
         base_directory = f'{input_dir}/{subdir}'
-        output_dir = f'../Database/LS_Result/Contrastive_Learning2/{subdir}'
+        output_dir = f'Database/LS_Result/Contrastive_Learning2/{subdir}'
         files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
 
         for file in files:
@@ -220,7 +220,7 @@ if Reversal_Save:
 cointegration = False
 if cointegration:
     input_dir = 'Database/characteristics_US'
-    output_dir = '../Database/LS_Result/Total/Cointegration'
+    output_dir = 'Database/LS_Result/Total/Cointegration'
     files = sorted(filename for filename in os.listdir(input_dir))
 
     for file in files:
@@ -247,7 +247,7 @@ if Best:
         top_df = pd.DataFrame(columns=['month', 'invested', 'outlier', 'first', 'second',
                                        'rest', 'total', 'number of clusters'])
         base_directory = f'{input_dir}/{subdir}'
-        output_dir = f'../Database/LS_Result/Best2/{subdir}'
+        output_dir = f'Database/LS_Result/Best2/{subdir}'
         files = sorted(filename for filename in os.listdir(base_directory) if filename.endswith('.csv'))
 
         for file in files:

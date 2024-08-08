@@ -6,80 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f3884da4-4003-4ca4-a09f-dbcab1695ef3" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/0_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/0_Preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/1_perform_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_perform_clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/2_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_invest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3_check_Performance.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/4_analyze_portfolio.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4_analyze_portfolio.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module/Clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Cointegration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module/Cointegration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/EDA.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Invest_Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module/Invest_Table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module/Metrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/PCA_and_ETC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module/PCA_and_ETC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Scratch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codes/Scratch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.6.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.7.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.8.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Agglomerative/0.9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Agglomerative/0.9.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning/60_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning/60_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning/70_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning/70_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning/80_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning/80_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning/90_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning/90_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/10_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning2/10_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/20_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning2/20_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/30_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning2/30_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/40_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning2/40_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/50_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning2/50_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/60_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning2/60_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/Contrastive_Learning2/70_characteristics_us.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/Contrastive_Learning2/70_characteristics_us.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.6.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.7.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.8.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/DBSCAN/0.9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/DBSCAN/0.9.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/40.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/40.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Individual_Result/K_mean/50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/50.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best2_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/L_Result/Best2_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best2_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/L_Result/Best2_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/L_Result/Best_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/L_Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/L_Result/Best_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Agglomerative_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Agglomerative_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Agglomerative_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best2_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Best2_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best2_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Best2_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Best_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Best_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Contrastive_Learning2_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning2_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Contrastive_Learning2_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Contrastive_Learning_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Contrastive_Learning_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Contrastive_Learning_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/DBSCAN_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/DBSCAN_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/DBSCAN_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/K_mean_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/K_mean_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/K_mean_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Reversal_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Reversal_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/Result/Reversal_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Reversal_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best2_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/S_Result/Best2_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best2_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/S_Result/Best2_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_result_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/S_Result/Best_result_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/Total_Result/S_Result/Best_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/S_Result/Best_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/no_bps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_invest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3_check_Performance.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/PCA_and_ETC.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/PCA_and_ETC.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,17 +26,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1_perform_clustering.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_invest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/asas4/Documents/GitHub/LGAimers_4&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1_perform_clustering (1).executor": "Run",
+    "Python.1_perform_clustering.executor": "Run",
+    "Python.2_invest (1).executor": "Run",
+    "Python.2_invest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/asas4/Documents/GitHub/LGAimers_4",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\asas4\Documents\GitHub\Pairs_Trading\Reference" />
@@ -117,7 +48,29 @@
       <recent name="C:\Users\asas4\Documents\GitHub\Pairs_Trading\Database" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2_invest">
+  <component name="RunManager" selected="Python.2_invest (1)">
+    <configuration name="1_perform_clustering (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pairs_Trading" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_perform_clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1_perform_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pairs_Trading" />
       <option name="ENV_FILES" value="" />
@@ -132,6 +85,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\asas4\Documents\GitHub\Pairs_Trading\1_perform_clustering.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_invest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pairs_Trading" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_invest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,8 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2_invest" />
+        <item itemvalue="Python.2_invest (1)" />
+        <item itemvalue="Python.1_perform_clustering (1)" />
         <item itemvalue="Python.1_perform_clustering" />
+        <item itemvalue="Python.2_invest" />
       </list>
     </recent_temporary>
   </component>
