@@ -1,15 +1,11 @@
-from umap import UMAP
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
-
 import os
 import warnings
 import numpy as np
 import pandas as pd
-from Module import Metrics as M
 import matplotlib.pyplot as plt
-
-# turn off warning
+from Module import Metrics as M
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
 warnings.filterwarnings("ignore")
 
 
@@ -128,7 +124,7 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
 
         prod = prod.applymap(lambda x: np.log(x + 1))
 
-        non_zero_count = LS_merged_df.astype(bool).sum()/2
+        non_zero_count = LS_merged_df.astype(bool).sum() / 2
         column_sums = prod.sum()
         if fee:
             total_fee = non_zero_count.values * fee
@@ -150,7 +146,7 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
 
         prod = prod.applymap(lambda x: np.log(x + 1))
 
-        non_zero_count = LS_merged_df.astype(bool).sum()/2
+        non_zero_count = LS_merged_df.astype(bool).sum() / 2
         column_sums = prod.sum()
         if fee:
             total_fee = non_zero_count.values * fee
@@ -163,18 +159,6 @@ def product_LS_Table(LS_merged_df: pd.DataFrame, MOM_merged_df: pd.DataFrame,
         result_df = pd.concat([result_df, column_means.T], ignore_index=True)
 
     return result_df
-
-
-def plot_UMAP(data, cluster_labels):
-    umap_model = UMAP(n_neighbors=10, min_dist=0.5, n_components=2, random_state=42, metric='cosine')
-    reduced_embeddings = umap_model.fit_transform(data)
-
-    fig, ax = plt.subplots(figsize=(10, 8))
-
-    ax = ax.scatter(reduced_embeddings[:, 0], reduced_embeddings[:, 1], c=cluster_labels, cmap='plasma')
-    fig.suptitle(f"UMAP", fontsize=16)
-    fig.tight_layout(rect=[0, 0, 1, 0.96])
-    fig.show()
 
 
 def plot_result(result_df, clustering_name, new_Plot: bool, apply_log: bool):
