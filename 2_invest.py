@@ -3,7 +3,7 @@ from utils.PCA_and_ETC import *
 from Module import Cointegration as CI, Invest_Table as I
 
 # hyper parameter K(3, 5, 10, 25, 50, 75, 100, 200, 300) should be tested manually.(paper follow)
-K_mean_Save = False
+K_mean_Save = True
 if K_mean_Save:
     input_dir = 'Database/Clustering_Result/K_mean'
     subdirectories = [d for d in os.listdir(input_dir)]
@@ -238,7 +238,7 @@ if cointegration:
         Coin.find_cointegrated_pairs()
         Coin.save_cointegrated_LS()
 
-Best = True
+Best = False
 if Best:
     input_dir = f'Database/Clustering_Result/Best'
     subdirectories = [d for d in os.listdir(input_dir)]
