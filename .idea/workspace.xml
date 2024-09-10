@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3884da4-4003-4ca4-a09f-dbcab1695ef3" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/PPO_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pairs_Trading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pairs_Trading.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_Preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/0_Preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_invest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_check_Performance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3_check_Performance.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Individual_Result/K_mean/10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Individual_Result/K_mean/100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/100.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Individual_Result/K_mean/20.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/20.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Individual_Result/K_mean/30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Individual_Result/K_mean/40.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/40.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Individual_Result/K_mean/50.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Individual_Result/K_mean/50.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Total_Result/Result/Best2_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/Best2_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/Total_Result/Result/K_mean_statistcs_modified.csv" beforeDir="false" afterPath="$PROJECT_DIR$/File/Total_Result/Result/K_mean_statistcs_modified.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/File/images/output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/File/images/Agglomerative.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/images/Agglomerative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File/images/Contrastive_Learning.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/images/Contrastive_Learning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File/images/DBSCAN.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/images/DBSCAN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File/images/K-mean.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/images/K-mean.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PPO.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PPO.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
